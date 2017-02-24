@@ -3,6 +3,9 @@
 I would like to show you the way I access IISExpress Web APIs from my Android Emulator.
 I'm using Visual Studio 2015. And I call the Android Emulator from Android Studio.
 
+*Requirement: you must run Visual Studio as Administrator.
+[This post](http://stackoverflow.com/a/12859334/2520509) gives a perfect way to do this
+*
 
 ## See the result:
 
@@ -38,4 +41,11 @@ You can find it in the folder [yourSolutionFolder]/.vs/config. Beware the folder
 
 And use this IP address to access your API from IIS Express. (See the result above)
 
-![Image of emulator](https://raw.githubusercontent.com/thetukiet/Access-IIS-Express-API-from-Android-Emulator/master/b4.png)
+<div style="width:100%;"><img style="float:center;" src="https://raw.githubusercontent.com/thetukiet/Access-IIS-Express-API-from-Android-Emulator/master/b4.png"/></div>
+
+
+
+## Reference
+
+* [The port on stackoverflow about forcing Visual Studio to always run as an Administrator](http://stackoverflow.com/questions/12257110/can-you-force-visual-studio-to-always-run-as-an-administrator-in-windows-8/12859334#12859334)
+* [The post about IIS Express external request](http://stackoverflow.com/questions/3313616/iis-express-enable-external-request/15809698#15809698)
